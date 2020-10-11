@@ -1,0 +1,26 @@
+*{
+  box-sizing: content-box;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 25% 25%;
+}
+
+.data img {
+  width: 100%;
+  height: 25rem;
+  
+}
+.data {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 1rem;
+}
+
+.data p, h4 {
+  margin-left: 25px;
+}
